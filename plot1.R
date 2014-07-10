@@ -16,7 +16,6 @@ loadPowerData <- function() {
       data <- subset(data, Date %in% dates)
       
       return(data)
-      
 }
 
 #Plot the data
